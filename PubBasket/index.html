@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Icon-->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <!--CSS-->
+    <link rel="stylesheet" href="./style.css">
+    <!--Logo Image-->
+    <link rel="icon" href="https://dioguwdgf472v.cloudfront.net/media/logos/equityinvest/Company/idpaksg5l65vvdiunlvt-cc75e1d02d43f13f.png" type="image/icon type">
+    <title>PubBasket</title>
+</head>
+
+<body>
+    <!--Navigation-->
+    <nav>
+        <div class="nav-responsive">
+            <img src="https://www.bing.com/th?id=OIP.3TI9RdqBzscJZPMAupLFSwHaDt&w=349&h=174&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2"
+                alt="bigbasket" class="logo" id="logo">
+            <div class="nav-search">
+                <a href="#" aria-label="search">
+                    <i class='bx bx-search' id="find"></i>
+                </a>
+                <input type="text" aria-label="search-box" id="search" placeholder="Search for Products">
+            </div>
+            <div class="access">
+                <a href="#" aria-label="items" id="basket"><i class='bx bxs-basket'></i></a>
+                <p>My basket<br>0 items</p>
+            </div>
+        </div>
+    </nav>
+
+    <!--Conatainer section-->
+    <container class="container">
+        <!--image slide container-->
+        <div class="slidercontainer">
+            <div class="showSlide fade">
+                <img src="https://www.bigbasket.com/media/uploads/banner_images/2210861-bbpl-staples_460_Bangalore.jpg"
+                    alt="offer staples" />
+                <div class="content">Offer on Staples</div>
+            </div>
+            <div class="showSlide fade">
+                <img src="https://www.bigbasket.com/media/uploads/banner_images/fresho-fnv-BANNER-2-1600x460-18thOCT22.jpg"
+                    alt="Fresho days" />
+                <div class="content">Fresho Days</div>
+            </div>
+            <div class="showSlide fade">
+                <img src="https://www.bigbasket.com/media/uploads/banner_images/HP_EMF_M_T1-1600x460_221012.jpg"
+                    alt="Fresho Marinates" />
+                <div class="content">Fresho Marinates</div>
+            </div>
+            <div class="showSlide fade">
+                <img src="https://www.bigbasket.com/media/uploads/banner_images/HP_EMF_M_Weekend-Bangalore-1600x460_221021.jpeg"
+                    alt="Fresho meat" />
+                <div class="content">Fresho Meat</div>
+            </div>
+
+            <!-- Navigation arrows -->
+            <a class="left" onclick="nextSlide(-1)">❮</a>
+            <a class="right" onclick="nextSlide(1)">❯</a>
+        </div>
+        <!--script for the image slide-show -->
+        <script type="text/javascript" src="./javascript/imgscript.js"></script>
+
+        <!--various offers-->
+        <div class="voffers" id="view-offer">
+            <script type="text/javascript" src="./javascript/voffers.js"></script>
+        </div>
+        <!--shopping cart of products-->
+        <div class="headling">
+            <h1>My Smart Basket</h1>
+            <p>
+                <span>❮</span>
+                <span>❯</span>
+            </p>
+        </div>
+        <div class="products">
+            <script src="./javascript/prodscript.js"></script>
+            <script type="text/javascript" src="./javascript/slidescrollerprod.js"></script>
+        </div>
+        <!--Bank Offer-->
+        <div class="bank">
+            <h1>Bank Offer</h1>
+            <div class="bankOffer" id="bank-offer">
+                <script type="text/javascript" src="./javascript/bankoffer.js"></script>
+            </div>
+        </div>
+        <!--Fruits & Veg-->
+        <div class="fruits-veg">
+            <h1>Fruits & Vegetables</h1>
+            <div class="fvcontent" id="fruits-veg">
+                <script type="text/javascript" src="./javascript/fruitvegscript.js"></script>
+            </div>
+        </div>
+        <!--daily staples-->
+        <div class="daily-staples">
+            <h1>Your Daily Staples</h1>
+            <div class="dscontent" id="daily-staple">
+                <script type="text/javascript" src="./javascript/dailystapscript.js"></script>
+            </div>
+        </div>
+        <!--Cleaning & Household-->
+        <div class="cleaning">
+            <h1>Cleaning & Household</h1>
+            <div class="chcontent" id="clean-household">
+                <script type="text/javascript" src="./javascript/cleanhouseholdscript.js"></script>
+            </div>
+        </div>
+        <!--Home Essentials-->
+        <div class="home-kitchen-remd">
+            <h1>Home & Kitchen Essentials</h1>
+            <div class="hkcontent" id="home-kitchen-esse">
+                <script type="text/javascript" src="./javascript/homekitchenEssscript.js"></script>
+            </div>
+        </div>
+        <!--Featured Recipe-->
+        <div class="recipe-content" id="featured-recipe">
+            <script type="text/javascript" src="./javascript/Featurerecipescript.js"></script>
+        </div>
+    </container>
+
+    <!--Footer Section-->
+    <footer>
+        <h2 id="footer-title">Our Support Team</h2>
+        <div class="footer">
+            <div class="support">
+                <ul>
+                    <h3>BigBasket</h3>
+                    <li><a href="#" id="about">Know Us</a></li>
+                    <li><a href="#" id="Refund-policy">Refund Policy</a></li>
+                    <li><a href="#" id="policy">Our Policy</a></li>
+                    <li><a href="#" id="return-product">How to Return ?</a></li>
+                    <li><a href="#" id="terms">Term & Conditios</a></li>
+                    <li><a href="#" id="privacy">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="support">
+                <ul>
+                    <h3>Help</h3>
+                    <li><a href="#" id="FAQs">FAQs</a></li>
+                    <li><a href="#" id="Contact-Us">Contact Us</a></li>
+                    <li><a href="#" id="bb-wallet-faqs">bb Wallet FAQs</a></li>
+                    <li><a href="#" id="bb-wallet-t&cs">bb Wallet T&Cs</a></li>
+                    <li><a href="#" id="vendor">Vendor Connet</a></li>
+                </ul>
+            </div>
+            <div class="support">
+                <ul>
+                    <h3>Download the App</h3>
+                    <li><img src="https://www.bbassets.com/static/v2602/custPage/build/content/img/Google-App-store-icon.png"
+                            alt="play-store-app"></li>
+                    <li><img src="https://www.bbassets.com/static/v2602/custPage/build/content/img/Apple-App-store-icon.png"
+                            alt="ios-store"></li>
+                </ul>
+            </div>
+
+            <div class="social-media">
+                <ul>
+                    <h3>Contact Us</h3>
+                    <li><i class='bx bxl-facebook-square'></i><a href="#" id="facebook">Facebook</a></li>
+                    <li><i class='bx bxl-twitter'></i><a href="#" id="twitter">Twitter</a></li>
+                    <li><i class='bx bxl-instagram-alt'></i><a href="#" id="facebook">Instagram</a></li>
+                    <li><i class='bx bxl-telegram'></i><a href="#" id="facebook">Telegram</a></li>
+                </ul>
+            </div>
+            <div class="more" id="more-output">
+                <script type="text/javascript" src="./javascript/moredetails.js"></script>
+            </div>
+        </div>
+
+        <div id="copyright">
+            <p>BigBasket 2022. All Rights Reserved @developer[ashupriya]</p>
+        </div>
+    </footer>
+</body>
+
+</html>

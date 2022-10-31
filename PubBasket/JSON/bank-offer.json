@@ -1,0 +1,23 @@
+[
+    {
+        "boimg":"https://www.bigbasket.com/media/customPage/77880b23-0233-4fad-b54a-a93c998e0d20/7f6ddfd5-93af-4bbd-a250-ce828daa63d6/2a46997a-8de3-47ba-af2d-25e7613f233d/t1_hp_aff_m_paytm_360_251022.jpg",
+        "blink":"#",
+        "bname":"paytm"
+    },
+    {
+        "boimg":"https://www.bigbasket.com/media/customPage/77880b23-0233-4fad-b54a-a93c998e0d20/7f6ddfd5-93af-4bbd-a250-ce828daa63d6/2a46997a-8de3-47ba-af2d-25e7613f233d/t1_hp_aff_m_kotak_360_251022.jpg",
+        "blink":"#",
+        "bname":"kotak"
+    },
+    {
+        "boimg":"https://www.bigbasket.com/media/customPage/77880b23-0233-4fad-b54a-a93c998e0d20/7f6ddfd5-93af-4bbd-a250-ce828daa63d6/2a46997a-8de3-47ba-af2d-25e7613f233d/t1_hp_aff_m_rbl_360_251022.jpg",
+        "blink":"#",
+        "bname":"rbi"
+    },
+    {
+        "boimg":"https://www.bigbasket.com/media/customPage/77880b23-0233-4fad-b54a-a93c998e0d20/7f6ddfd5-93af-4bbd-a250-ce828daa63d6/2a46997a-8de3-47ba-af2d-25e7613f233d/t1_hp_aff_m_amex_360_251022.jpg",
+        "blink":"#",
+        "bname":"american-express"
+    }
+
+]

@@ -1,0 +1,82 @@
+[
+    {
+        "name": "Coriander Leaves",
+        "avatar_url": "https://www.bigbasket.com/media/uploads/p/s/10000097_19-fresho-coriander-leaves.jpg",
+        "price": 100,
+        "amt": "amount",
+        "qut1": "10g",
+        "qut2": "20g",
+        "qut3": "30g",
+        "type": "Standard Delivery: 29 Oct, 9:00AM - 1:30PM"
+    },
+    {
+        "name": "Cucumber (Loose)",
+        "avatar_url": "https://www.bigbasket.com/media/uploads/p/s/10000102_17-fresho-cucumber.jpg",
+        "price": 100,
+        "amt": "amount",
+        "qut1": "10g",
+        "qut2": "20g",
+        "qut3": "30g",
+        "type": "Standard Delivery: 29 Oct, 9:00AM - 1:30PM"
+    },
+    {
+        "name": "Potato (Loose)",
+        "avatar_url": "https://www.bigbasket.com/media/uploads/p/s/40048457_9-fresho-potato-new-crop.jpg",
+        "price": 100,
+        "amt": "amount",
+        "qut1": "10g",
+        "qut2": "20g",
+        "qut3": "30g",
+        "type": "Standard Delivery: 29 Oct, 9:00AM - 1:30PM"
+    },
+    {
+        "name": "Onion (Loose)",
+        "avatar_url": "https://www.bigbasket.com/media/uploads/p/s/10000148_30-fresho-onion.jpg",
+        "price": 100,
+        "amt": "amount",
+        "qut1": "10g",
+        "qut2": "20g",
+        "qut3": "30g",
+        "type": "Standard Delivery: 29 Oct, 9:00AM - 1:30PM"
+    },
+    {
+        "name": "Tomato - Hybrid (Loose)",
+        "avatar_url": "https://www.bigbasket.com/media/uploads/p/s/10000200_17-fresho-tomato-hybrid.jpg",
+        "price": 100,
+        "amt": "amount",
+        "qut1": "10g",
+        "qut2": "20g",
+        "qut3": "30g",
+        "type": "Standard Delivery: 29 Oct, 9:00AM - 1:30PM"
+    },
+    {
+        "name": "Ladies' Fingers (Loose)",
+        "avatar_url": "https://www.bigbasket.com/media/uploads/p/s/10000144_13-fresho-ladies-finger.jpg",
+        "price": 100,
+        "amt": "amount",
+        "qut1": "10g",
+        "qut2": "20g",
+        "qut3": "30g",
+        "type": "Standard Delivery: 29 Oct, 9:00AM - 1:30PM"
+    },
+    {
+        "name": "Beans - Haricot (Loose)",
+        "avatar_url": "https://www.bigbasket.com/media/uploads/p/s/40089742_2-fresho-beans-haricot.jpg",
+        "price": 100,
+        "amt": "amount",
+        "qut1": "10g",
+        "qut2": "20g",
+        "qut3": "30g",
+        "type": "Standard Delivery: 29 Oct, 9:00AM - 1:30PM"
+    },
+    {
+        "name": "Atta/Godihittu - Wheat",
+        "avatar_url": "https://www.bigbasket.com/media/uploads/p/s/126906_8-aashirvaad-atta-whole-wheat.jpg",
+        "price": 100,
+        "amt": "amount",
+        "qut1": "10g",
+        "qut2": "20g",
+        "qut3": "30g",
+        "type": "Standard Delivery: 29 Oct, 9:00AM - 1:30PM"
+    }
+]
